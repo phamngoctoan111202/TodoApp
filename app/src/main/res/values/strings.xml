@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="skip_text_underlined"><u>Skip</u></string>
+</resources>

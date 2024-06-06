@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#FFBA5F</color> <!-- The primary branding color for the app -->
+    <color name="colorOnPrimary">#FFFFFFFF</color> <!-- The color to be used on top of the primary color (e.g., text) -->
+    <color name="colorPrimaryDark">#303F9F</color> <!-- A darker variant of the primary color, often used for the status bar -->
+
+    <!-- Accent color -->
+    <color name="colorAccent">#FF4081</color> <!-- The accent color used for highlighting or emphasizing UI elements -->
+
+    <!-- Status bar color -->
+    <color name="colorStatusBar">#303F9F</color> <!-- The color for the status bar background -->
+
+    <!-- Surface colors -->
+    <color name="colorSurface">#FFFFFF</color> <!-- The color for surfaces of the app (e.g., cards, sheets) -->
+    <color name="colorOnSurface">#000000</color> <!-- The color to be used on top of the surface color (e.g., text on cards) -->
+
+    <!-- Text colors -->
+    <color name="colorTextPrimary">#000000</color> <!-- Primary text color for the app -->
+    <color name="colorTextSecondary">#757575</color> <!-- Secondary text color for less prominent text -->
+    <color name="colorTextHint">#BDBDBD</color> <!-- Text color for hints or disabled text -->
+
+    <!-- Background colors -->
+    <color name="colorBackground">#F1F1F1</color> <!-- Default background color for the app -->
+    <color name="colorOnBackground">#212121</color> <!-- The color to be used on top of the background color (e.g., text) -->
+
+    <!-- Error colors -->
+    <color name="colorError">#D32F2F</color> <!-- Color for error messages or elements -->
+    <color name="colorOnError">#FFFFFF</color> <!-- The color to be used on top of the error color (e.g., text on error messages) -->
+
+    <!-- Divider color -->
+    <color name="colorDivider">#BDBDBD</color> <!-- Color for dividers between different UI elements -->
+
+    <!-- Custom colors -->
+    <color name="colorButtonNormal">#FF4081</color> <!-- Default color for buttons -->
+    <color name="colorButtonDisabled">#BDBDBD</color> <!-- Color for disabled buttons -->
+</resources>

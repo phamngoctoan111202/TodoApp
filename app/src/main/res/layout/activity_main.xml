@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        >
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhiệm vụ của bạn"
+            android:layout_marginTop="16dp"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textColor="@color/colorTextPrimary"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <ImageView
+            android:id="@+id/emptyTasksImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/work_main_thumb"
+            android:visibility="visible"
+            android:paddingTop="48dp"
+            android:scaleType="fitStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textTitle"/>
+
+        <TextView
+            android:id="@+id/emptyTasksTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn chưa có nhiệm vụ nào. Hãy bấm vào button phía dưới để thêm nhiệm vụ mới."
+            android:gravity="center"
+            android:padding="24dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="16sp"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@id/fabAddTask"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_marginTop="36dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textTitle"
+            android:scrollbars="vertical" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAddTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="36dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@android:drawable/ic_input_add"
+            app:backgroundTint="@color/colorPrimary"
+            app:tint="@color/colorTextPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:lottie_rawRes="@raw/animation_create_note_btn"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:layout_constraintTop_toTopOf="@id/fabAddTask"
+            app:layout_constraintBottom_toBottomOf="@id/fabAddTask"
+            app:layout_constraintStart_toStartOf="@id/fabAddTask"
+            app:layout_constraintEnd_toEndOf="@id/fabAddTask"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

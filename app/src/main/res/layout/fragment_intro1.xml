@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="36dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="Chào mừng bạn đến To-do List"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textTitle"
+            android:text="Tạo các tác vụ nhanh chóng và dễ dàng"
+            android:layout_marginTop="90dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorTextPrimary"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:drawablePadding="12dp"
+            android:drawableLeft="@drawable/icon_intro_book"
+            android:drawableTint="@color/colorPrimary"
+            />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:text="Nhắc nhở công việc"
+            android:layout_margin="36dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorTextPrimary"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:drawablePadding="12dp"
+            android:drawableLeft="@drawable/icon_intro_clock"
+            android:drawableTint="@color/colorPrimary"
+            />
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            android:text="Các tiện ích được cá nhân hóa"
+            android:layout_margin="36dp"
+            android:textSize="18sp"
+            android:drawablePadding="12dp"
+            android:textColor="@color/colorTextPrimary"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:drawableLeft="@drawable/icon_intro_categories"
+            android:drawableTint="@color/colorPrimary"
+            />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            android:text="Chủ đề tùy chỉnh"
+            android:layout_margin="36dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorTextPrimary"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:drawablePadding="12dp"
+            android:drawableLeft="@drawable/icon_intro_person"
+            android:drawableTint="@color/colorPrimary"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="42dp"
+            android:text="Vuốt để tiếp tục"
+            android:gravity="center_vertical"
+            android:drawablePadding="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+       />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

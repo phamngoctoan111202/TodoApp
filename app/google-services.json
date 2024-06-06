@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1088959744961",
+    "project_id": "todoapp-6d4e6",
+    "storage_bucket": "todoapp-6d4e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088959744961:android:ec107522b0ca4190407d40",
+        "android_client_info": {
+          "package_name": "com.noatnoat.musicapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjFXY250LnHuwlCjt8EUHyAo0yWhP6TQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
